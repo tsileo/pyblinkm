@@ -24,9 +24,6 @@ Drive a `BlinkM <http://thingm.com/products/blinkm>`_ with **Python** via I2C us
 
 Contents:
 
-.. toctree::
-   :maxdepth: 2
-
 .. automodule:: pyblinkm
    :members:
 
