@@ -1,0 +1,9 @@
+docs/_build/
+*.pyc
+build/
+dist/
+pyblinkm.egg-info/
+.DS_Store
+*tar.gz
+*.zip
+.pypirc
