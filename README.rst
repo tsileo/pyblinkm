@@ -4,6 +4,8 @@ PyBlinkM
 
 Drive a `BlinkM <http://thingm.com/products/blinkm>`_ with **Python** via I2C using python-smbus on `Raspberry Pi <http://www.raspberrypi.org/>`_.
 
+You can view the documentation `on readthedocs <https://pyblinkm.readthedocs.org/en/latest/>`_.
+
 Overview
 ========
 
