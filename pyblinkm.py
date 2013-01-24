@@ -1,5 +1,4 @@
 # -*- encoding: utf-8 -*-
-import smbus
 
 GO_TO_RGB = 0x6e
 FADE_TO_RGB = 0x63
@@ -51,6 +50,8 @@ class I2C:
 
     """
     def __init__(self, bus=1, addr=0x09):
+        # import on top makes readthedocs build fail
+        import smbus
         self.bus = smbus.SMBus(bus)
         self.addr = addr
 
