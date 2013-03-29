@@ -159,3 +159,11 @@ class BlinkM(I2C):
         r, g, b = self._read_bytes(3)
         return r, g ,b
 
+    def write_script_line(self, script_number, line_number, duration, command, value1=0, value2=0, value3=0):
+        """Write Light Script Line"""
+        self._write_bytes(WRITE_SCRIPT_LINE, script_number, line_number, duration, command, value1, value2, value3)
+
+    def set_script_length_and_repeats(self, script_number, length, repeats):
+        """Set Light Script Length"""
+        self._write_bytes(SET_SCRIPT_LENGTH_AND_REPEATS, script_number, length, repeats)
+
